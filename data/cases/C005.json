@@ -1,0 +1,28 @@
+{
+  "case_id": "C005",
+  "synthetic": true,
+  "scenario": "Multiple matching records, no issue",
+  "documents": [
+    {
+      "id": "visit",
+      "kind": "site_visit",
+      "timestamp": "2026-04-06",
+      "author": "Contractor",
+      "text": "Homeowner requests composite deck boards in gray and a single set of stairs. We reviewed both on site."
+    },
+    {
+      "id": "email",
+      "kind": "customer_email",
+      "timestamp": "2026-04-07",
+      "author": "Homeowner",
+      "text": "Confirming gray composite boards and one set of stairs."
+    },
+    {
+      "id": "proposal",
+      "kind": "draft_proposal",
+      "timestamp": "2026-04-08",
+      "author": "Estimator",
+      "text": "Install gray composite deck boards and one set of stairs."
+    }
+  ]
+}

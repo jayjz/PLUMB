@@ -1,0 +1,24 @@
+{
+  "predictions": [
+    {
+      "case_id": "C001",
+      "findings": []
+    },
+    {
+      "case_id": "C002",
+      "findings": []
+    },
+    {
+      "case_id": "C003",
+      "findings": []
+    },
+    {
+      "case_id": "C004",
+      "findings": []
+    },
+    {
+      "case_id": "C005",
+      "findings": []
+    }
+  ]
+}

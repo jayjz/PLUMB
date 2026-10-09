@@ -1,0 +1,28 @@
+{
+  "case_id": "C002",
+  "synthetic": true,
+  "scenario": "Authorized width revision; no remaining conflict",
+  "documents": [
+    {
+      "id": "visit",
+      "kind": "site_visit",
+      "timestamp": "2026-01-10",
+      "author": "Contractor",
+      "text": "Initial sketch: approximate deck width 14 feet. Client will confirm final width."
+    },
+    {
+      "id": "revision",
+      "kind": "customer_email",
+      "timestamp": "2026-01-11",
+      "author": "Homeowner",
+      "text": "We approve a revised deck width of 12 feet instead of 14 feet. Please use 12 feet in the proposal."
+    },
+    {
+      "id": "proposal",
+      "kind": "draft_proposal",
+      "timestamp": "2026-01-12",
+      "author": "Estimator",
+      "text": "Scope: install a 12-foot-wide deck per the approved revised width."
+    }
+  ]
+}

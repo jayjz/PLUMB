@@ -1,0 +1,28 @@
+{
+  "case_id": "C001",
+  "synthetic": true,
+  "scenario": "Backyard deck framing material approval",
+  "documents": [
+    {
+      "id": "visit",
+      "kind": "site_visit",
+      "timestamp": "2026-01-10",
+      "author": "Contractor",
+      "text": "Homeowner requests pressure-treated wood for all deck framing; we discussed this explicitly and they agreed."
+    },
+    {
+      "id": "email",
+      "kind": "customer_email",
+      "timestamp": "2026-01-11",
+      "author": "Homeowner",
+      "text": "Please proceed with pressure-treated framing as discussed."
+    },
+    {
+      "id": "proposal",
+      "kind": "draft_proposal",
+      "timestamp": "2026-01-12",
+      "author": "Estimator",
+      "text": "Build deck with untreated pine framing and composite surface boards."
+    }
+  ]
+}

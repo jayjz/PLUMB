@@ -1,0 +1,28 @@
+{
+  "case_id": "C003",
+  "synthetic": true,
+  "scenario": "Railing material conflict",
+  "documents": [
+    {
+      "id": "visit",
+      "kind": "site_visit",
+      "timestamp": "2026-02-03",
+      "author": "Contractor",
+      "text": "We reviewed railing choices. The customer selected black aluminum railing."
+    },
+    {
+      "id": "approval",
+      "kind": "customer_email",
+      "timestamp": "2026-02-04",
+      "author": "Homeowner",
+      "text": "I approve the black aluminum railing option we discussed."
+    },
+    {
+      "id": "proposal",
+      "kind": "draft_proposal",
+      "timestamp": "2026-02-05",
+      "author": "Estimator",
+      "text": "Provide and install white vinyl railing around the deck."
+    }
+  ]
+}

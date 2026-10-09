@@ -1,0 +1,13 @@
+{
+  "case_id": "C003",
+  "issues": [
+    {
+      "type": "contradiction",
+      "evidence": [
+        "approval",
+        "proposal"
+      ],
+      "description": "Approved black aluminum railing conflicts with white vinyl."
+    }
+  ]
+}

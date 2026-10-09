@@ -1,0 +1,13 @@
+{
+  "case_id": "C004",
+  "issues": [
+    {
+      "type": "omission",
+      "evidence": [
+        "approval",
+        "proposal"
+      ],
+      "description": "Agreed debris disposal is omitted from draft scope."
+    }
+  ]
+}

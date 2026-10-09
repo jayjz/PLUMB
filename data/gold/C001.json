@@ -1,0 +1,13 @@
+{
+  "case_id": "C001",
+  "issues": [
+    {
+      "type": "contradiction",
+      "evidence": [
+        "email",
+        "proposal"
+      ],
+      "description": "Latest approved framing is pressure-treated, draft says untreated."
+    }
+  ]
+}
