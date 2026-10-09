@@ -1,0 +1,36 @@
+{
+  "source_id": "concrete",
+  "authorship": "AI-authored factual paraphrases checked against locally downloaded PDF; not human-verified. Bracketed alternatives are not universal requirements.",
+  "sections": [
+    {
+      "section": "3.3.2",
+      "pdf_page": 13,
+      "note": "Sidewalk finishing includes transverse broom texture."
+    },
+    {
+      "section": "3.7.3",
+      "pdf_page": 17,
+      "note": "Completed concrete requires protection until acceptance."
+    },
+    {
+      "section": "2.2",
+      "pdf_page": 9,
+      "note": "Curing materials include sheeting and membrane compound."
+    },
+    {
+      "section": "1.1.1.1",
+      "pdf_page": 5,
+      "note": "Sidewalk measurement uses area for each specified depth."
+    },
+    {
+      "section": "1.1.1.2",
+      "pdf_page": 5,
+      "note": "Curb measurement follows the face at the gutter line."
+    },
+    {
+      "section": "3.5.2",
+      "pdf_page": 14,
+      "note": "Expansion joints use filler held in place during finishing."
+    }
+  ]
+}

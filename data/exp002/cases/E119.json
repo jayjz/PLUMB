@@ -1,0 +1,75 @@
+{
+  "case_id": "E119",
+  "synthetic": true,
+  "title": "Nursery boundary bottom detail",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "fence",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2031%2013.pdf",
+      "document_identity": "UFGS 32 31 13 — Chain Link Fences and Gates; November 2021; downloaded edition references UMRL July 2026",
+      "section": "3.2.2.2",
+      "pdf_page": 18,
+      "note": "Bottom tension wire selection is coordinated with bottom rails.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-03-18",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Use bottom tension wire on the nursery boundary, with no bottom rail. The old gate is under a different maintenance order."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-03-20",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The supplier catalogue shows a heavy bottom rail in its cover photograph. That photograph is generic and does not describe the selected assembly."
+        },
+        {
+          "id": "p2",
+          "text": "The gardener asked whether a future planting bed would need a gate; no gate order followed."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-03-23",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Approved boundary assembly: bottom tension wire, no bottom rail, no gate work. Keep the stated top rail and existing measured length."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-03-25",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Install the boundary fence at the agreed length with top rail and bottom tension wire. Bottom rail and gate work excluded."
+        }
+      ]
+    }
+  ]
+}

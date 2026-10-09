@@ -1,0 +1,36 @@
+{
+  "source_id": "painting",
+  "authorship": "AI-authored factual paraphrases checked against locally downloaded PDF; not human-verified. Bracketed alternatives are not universal requirements.",
+  "sections": [
+    {
+      "section": "3.8.1",
+      "pdf_page": 43,
+      "note": "Application methods depend on the project and coating requirements."
+    },
+    {
+      "section": "3.1",
+      "pdf_page": 30,
+      "note": "Adjacent unpainted items require protection and subsequent restoration."
+    },
+    {
+      "section": "1.6",
+      "pdf_page": 17,
+      "note": "Submittal requirements are edited to reflect the project."
+    },
+    {
+      "section": "1.2.1",
+      "pdf_page": 6,
+      "note": "Paint scope distinguishes interior and exterior surfaces."
+    },
+    {
+      "section": "1.7.1",
+      "pdf_page": 19,
+      "note": "Document discrepancies require resolution before affected work."
+    },
+    {
+      "section": "1.2.2",
+      "pdf_page": 7,
+      "note": "Factory-finished items are excluded unless indicated otherwise."
+    }
+  ]
+}

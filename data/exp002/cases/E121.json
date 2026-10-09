@@ -1,0 +1,79 @@
+{
+  "case_id": "E121",
+  "synthetic": true,
+  "title": "Store canopy drainage metal",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "flashing",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2007%2060%2000.pdf",
+      "document_identity": "UFGS 07 60 00 — Flashing and Sheet Metal; August 2023, Change 1 May 2025; downloaded edition references UMRL July 2026",
+      "section": "2.2.1",
+      "pdf_page": 13,
+      "note": "Exposed sheet metal items use coordinated material selections.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-03-26",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Renew the canopy gutter and its downspout as one exposed sheet-metal package. We are choosing prefinished aluminum to match the fascia."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-03-28",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The old downspout is galvanized steel. It is being replaced, not retained; the proposed color can be supplied on more than one metal."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-03-31",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Approve prefinished aluminum for both gutter and downspout. Matching color alone is insufficient; the old steel downspout is not a material reference."
+        },
+        {
+          "id": "p2",
+          "text": "Keep the existing outlet location. The adjacent canopy is outside this package."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-04-02",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Gutter: prefinished aluminum at the existing outlet location."
+        },
+        {
+          "id": "p2",
+          "text": "Downspout: prefinished galvanized steel in matching color. Adjacent canopy excluded."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "case_id": "E128",
+  "category": "contradiction",
+  "review_status": "provisional_ai_authored",
+  "independent_human_review": false,
+  "expected_status": "issues",
+  "issues": [
+    {
+      "issue_id": "E128-01",
+      "type": "contradiction",
+      "expected_action": "revise_proposal",
+      "identity": {
+        "authorized_evidence": [
+          "d3.p1"
+        ],
+        "proposal_evidence": [
+          "d5.p1"
+        ]
+      },
+      "rationale": "Owner distinguishes retained oak leaves from scrap steel; later supplier logistics does not authorize a change. Hinges and delivery timing are distractions."
+    }
+  ],
+  "resolution": {
+    "type": "contradiction",
+    "expected_action": "revise_proposal",
+    "authorized_evidence": [
+      "d3.p1"
+    ],
+    "proposal_evidence": [
+      "d5.p1"
+    ],
+    "rationale": "Owner distinguishes retained oak leaves from scrap steel; later supplier logistics does not authorize a change. Hinges and delivery timing are distractions."
+  },
+  "assumptions": [
+    "Owner role and authority are fictional and stipulated, not legally verified.",
+    "Measurements, material selections and amendments are synthetic; source supports terminology, not project events.",
+    "Qualified human review of plausibility, completeness and labels remains pending."
+  ]
+}

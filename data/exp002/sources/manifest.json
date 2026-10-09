@@ -1,0 +1,304 @@
+{
+  "manifest_version": "1.0",
+  "sources": [
+    {
+      "source_id": "demolition",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2002%2041%2000.pdf",
+      "publisher": "USACE / NAVFAC / AFCEC; preparing activity USACE; hosted by WBDG",
+      "access_date": "2026-10-09",
+      "document_identity": "UFGS 02 41 00 — Demolition; August 2022; downloaded edition references UMRL July 2026",
+      "content_type": "application/pdf",
+      "status": "used_factual_notes_only",
+      "partition": "development",
+      "reuse": {
+        "basis": "Original factual notes and synthetic scenarios only; no PDF, standard text, tables, logos or figures redistributed. Federal authorship is indicated; no blanket license to third-party standards inferred.",
+        "redistribute_original": false,
+        "rights_review": "No explicit blanket license verified. Full-document redistribution withheld.",
+        "policy_url": "https://www.usa.gov/government-copyright"
+      },
+      "artifacts": [
+        {
+          "cache_path": "demolition.pdf",
+          "sha256": "4354e3ae7ead7ccd132788192f1e3382714b7a4a834a95b8b3b62293a6650078",
+          "bytes": 88579,
+          "redistributed": false
+        }
+      ],
+      "notes_path": "data/exp002/sources/notes/demolition.json"
+    },
+    {
+      "source_id": "concrete",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2016%2019.pdf",
+      "publisher": "USACE / NAVFAC / AFCEC; preparing activity USACE; hosted by WBDG",
+      "access_date": "2026-10-09",
+      "document_identity": "UFGS 32 16 19 — Concrete Sidewalks, Curbs and Gutters; May 2018; downloaded edition references UMRL July 2026",
+      "content_type": "application/pdf",
+      "status": "used_factual_notes_only",
+      "partition": "development",
+      "reuse": {
+        "basis": "Original factual notes and synthetic scenarios only; no PDF, standard text, tables, logos or figures redistributed. Federal authorship is indicated; no blanket license to third-party standards inferred.",
+        "redistribute_original": false,
+        "rights_review": "No explicit blanket license verified. Full-document redistribution withheld.",
+        "policy_url": "https://www.usa.gov/government-copyright"
+      },
+      "artifacts": [
+        {
+          "cache_path": "concrete.pdf",
+          "sha256": "3d7dded9ccc2b5d507daa380b5d05e6632f8685ae906371733c489507fdfc735",
+          "bytes": 63310,
+          "redistributed": false
+        }
+      ],
+      "notes_path": "data/exp002/sources/notes/concrete.json"
+    },
+    {
+      "source_id": "painting",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2009%2090%2000.pdf",
+      "publisher": "USACE / NAVFAC / AFCEC; preparing activity NAVFAC; hosted by WBDG",
+      "access_date": "2026-10-09",
+      "document_identity": "UFGS 09 90 00 — Paints and Coatings; August 2026; downloaded edition references UMRL July 2026",
+      "content_type": "application/pdf",
+      "status": "used_factual_notes_only",
+      "partition": "development",
+      "reuse": {
+        "basis": "Original factual notes and synthetic scenarios only; no PDF, standard text, tables, logos or figures redistributed. Federal authorship is indicated; no blanket license to third-party standards inferred.",
+        "redistribute_original": false,
+        "rights_review": "No explicit blanket license verified. Full-document redistribution withheld.",
+        "policy_url": "https://www.usa.gov/government-copyright"
+      },
+      "artifacts": [
+        {
+          "cache_path": "painting.pdf",
+          "sha256": "35a9f2f6165959e9ff4994303e076ea7ed9b3f2553f45a730fea2037414bcedb",
+          "bytes": 373810,
+          "redistributed": false
+        }
+      ],
+      "notes_path": "data/exp002/sources/notes/painting.json"
+    },
+    {
+      "source_id": "fence",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2031%2013.pdf",
+      "publisher": "USACE / NAVFAC / AFCEC; preparing activity AFCEC; hosted by WBDG",
+      "access_date": "2026-10-09",
+      "document_identity": "UFGS 32 31 13 — Chain Link Fences and Gates; November 2021; downloaded edition references UMRL July 2026",
+      "content_type": "application/pdf",
+      "status": "used_factual_notes_only",
+      "partition": "held_out",
+      "reuse": {
+        "basis": "Original factual notes and synthetic scenarios only; no PDF, standard text, tables, logos or figures redistributed. Federal authorship is indicated; no blanket license to third-party standards inferred.",
+        "redistribute_original": false,
+        "rights_review": "No explicit blanket license verified. Full-document redistribution withheld.",
+        "policy_url": "https://www.usa.gov/government-copyright"
+      },
+      "artifacts": [
+        {
+          "cache_path": "fence.pdf",
+          "sha256": "20702f9966450e8060f94afdecccd9dc8fe1215aa4fb4a0066d7e88c6233669a",
+          "bytes": 73842,
+          "redistributed": false
+        }
+      ],
+      "notes_path": "data/exp002/sources/notes/fence.json"
+    },
+    {
+      "source_id": "flashing",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2007%2060%2000.pdf",
+      "publisher": "USACE / NAVFAC / AFCEC; preparing activity NAVFAC; hosted by WBDG",
+      "access_date": "2026-10-09",
+      "document_identity": "UFGS 07 60 00 — Flashing and Sheet Metal; August 2023, Change 1 May 2025; downloaded edition references UMRL July 2026",
+      "content_type": "application/pdf",
+      "status": "used_factual_notes_only",
+      "partition": "held_out",
+      "reuse": {
+        "basis": "Original factual notes and synthetic scenarios only; no PDF, standard text, tables, logos or figures redistributed. Federal authorship is indicated; no blanket license to third-party standards inferred.",
+        "redistribute_original": false,
+        "rights_review": "No explicit blanket license verified. Full-document redistribution withheld.",
+        "policy_url": "https://www.usa.gov/government-copyright"
+      },
+      "artifacts": [
+        {
+          "cache_path": "flashing.pdf",
+          "sha256": "5f8094a596f33720fb9892bb613871a167a32aa2ef5607f488ba2094dd8258ae",
+          "bytes": 141837,
+          "redistributed": false
+        }
+      ],
+      "notes_path": "data/exp002/sources/notes/flashing.json"
+    },
+    {
+      "source_id": "construction_qa",
+      "url": "https://github.com/shuyi003/Construction-document-QA",
+      "publisher": "shuyi003",
+      "access_date": "2026-10-09",
+      "document_identity": "Git tree 406b211280022102ab66ccdba90f35d54711baa4",
+      "relevant_section": "README and root tree",
+      "content_type": "application/json",
+      "status": "excluded",
+      "reason": "Alaska earthworks QA is not chronological scope verification. No LICENSE in recursive tree; GPT4 labeling notebook exists, not independent human validation.",
+      "reuse": {
+        "basis": "No redistribution permission established; no source content redistributed.",
+        "redistribute_original": false
+      },
+      "artifacts": [
+        {
+          "cache_path": "qa-tree.json",
+          "sha256": "c070869ddb39c1d8c6bc3e210698f42414f47f5a6dd579f24f77b6bedeea1c06",
+          "bytes": 1208,
+          "redistributed": false
+        },
+        {
+          "cache_path": "qa-readme.json",
+          "sha256": "e6fdb38661ef5b6803dca19411678540448a1f1f40be7c367d4b15099f6b9f03",
+          "bytes": 2945,
+          "redistributed": false
+        }
+      ]
+    },
+    {
+      "source_id": "structure_rag",
+      "url": "https://github.com/shuyi003/structure-informed-RAG-for-understanding-construction-documents",
+      "publisher": "shuyi003",
+      "access_date": "2026-10-09",
+      "document_identity": "Git tree 29e7d7eb00ce956084a03fa37d81e6be32513a77",
+      "relevant_section": "Dataset/Descriptions.txt and recursive tree",
+      "content_type": "application/json",
+      "status": "excluded",
+      "reason": "Regulatory QA divisions and Colab workflow; no LICENSE in recursive tree; underlying rights and independent label review unverified.",
+      "reuse": {
+        "basis": "No redistribution permission established; no source content redistributed.",
+        "redistribute_original": false
+      },
+      "artifacts": [
+        {
+          "cache_path": "rag-tree.json",
+          "sha256": "2426d476801ba18547baacc4d35edfe8c786a8bb455d7be3e0ef9553511b22b8",
+          "bytes": 4048,
+          "redistributed": false
+        },
+        {
+          "cache_path": "rag-description.json",
+          "sha256": "0f54ea87a3854fd0fd0870611c299e7c39fdc5a2a6132d11cae1c593feee80e1",
+          "bytes": 1341,
+          "redistributed": false
+        }
+      ]
+    },
+    {
+      "source_id": "oregon_bids",
+      "url": "https://www.oregon.gov/odot/Business/Pages/average_bid_item_prices.aspx",
+      "publisher": "Oregon DOT",
+      "access_date": "2026-10-09",
+      "document_identity": "Bid Item Prices landing page as accessed",
+      "relevant_section": "Bid Item Prices, annual spreadsheet links",
+      "content_type": "text/html",
+      "status": "context_only",
+      "reason": "Landing page verifies fields and annual availability. Spreadsheets not downloaded. No approved-scope chronology or paired proposals established.",
+      "reuse": {
+        "basis": "No redistribution permission established; no source content redistributed.",
+        "redistribute_original": false
+      },
+      "artifacts": [
+        {
+          "cache_path": "oregon.html",
+          "sha256": "73a26d1883996ce06fe3bf0c860f53a52b80bbb265bd0118686fc3ba0fc8423f",
+          "bytes": 83836,
+          "redistributed": false
+        }
+      ]
+    },
+    {
+      "source_id": "caltrans_cost",
+      "url": "https://sv08data.dot.ca.gov/",
+      "publisher": "Caltrans",
+      "access_date": "2026-10-09",
+      "document_identity": "Contract Cost Data search landing page as accessed",
+      "relevant_section": "Search Parameters",
+      "content_type": "text/html",
+      "status": "context_only",
+      "reason": "Price search cannot establish approval, omission, or supersession labels. No bulk query or row dataset collected.",
+      "reuse": {
+        "basis": "Caltrans conditions-of-use Ownership generally permits agency information copying, except third-party content; no claim of blanket permission. https://dot.ca.gov/conditions-of-use",
+        "redistribute_original": false
+      },
+      "artifacts": [
+        {
+          "cache_path": "caltrans.html",
+          "sha256": "75cb5ab46a1c531887b28f6973cf148d17c5ed434d12a58955084ba549368ba7",
+          "bytes": 16921,
+          "redistributed": false
+        },
+        {
+          "cache_path": "caltrans-terms.html",
+          "sha256": "aa2812779457aa5259de20a8caba72634644035e210a7dbe078816fc14aac56c",
+          "bytes": 37520,
+          "redistributed": false
+        }
+      ]
+    },
+    {
+      "source_id": "fp24",
+      "url": "https://highways.dot.gov/sites/fhwa.dot.gov/files/fp-24_0.pdf",
+      "publisher": "FHWA",
+      "access_date": "2026-10-09",
+      "document_identity": "FP-24 (2024)",
+      "relevant_section": "Standard Specifications; PDF and linked Word edition",
+      "content_type": "application/pdf",
+      "status": "blocked",
+      "reason": "HTTP 403 for PDF and https://highways.dot.gov/federal-lands/specs/fp-24.docx; no artifact downloaded; no hash fabricated.",
+      "reuse": {
+        "basis": "No redistribution permission established; no source content redistributed.",
+        "redistribute_original": false
+      },
+      "artifacts": []
+    },
+    {
+      "source_id": "far_changes",
+      "url": "https://origin-www.acquisition.gov/far/52.243-4",
+      "publisher": "Acquisition.gov",
+      "access_date": "2026-10-09",
+      "document_identity": "52.243-4 Changes (June 2007), web page inspected",
+      "relevant_section": "paragraphs (a)-(f)",
+      "content_type": "text/html",
+      "status": "context_only",
+      "reason": "Describes authority and changes; not an executed change-order record. Web inspection only; no downloaded artifact. Not imported into fictional contracts.",
+      "reuse": {
+        "basis": "No redistribution permission established; no source content redistributed.",
+        "redistribute_original": false
+      },
+      "artifacts": []
+    },
+    {
+      "source_id": "residential_hvac",
+      "url": "https://www1.eere.energy.gov/wip/pdfs/sws_singlefamily.pdf",
+      "publisher": "US DOE",
+      "access_date": "2026-10-09",
+      "document_identity": "Standard Work Specifications for Single-Family Home Energy Upgrades",
+      "relevant_section": "search discovery only",
+      "content_type": "application/pdf",
+      "status": "not_verified",
+      "reason": "Candidate guidance, not verified project records. No download, no rights or clause audit, no case use. No suitable residential decking source verified.",
+      "reuse": {
+        "basis": "No redistribution permission established; no source content redistributed.",
+        "redistribute_original": false
+      },
+      "artifacts": []
+    },
+    {
+      "source_id": "gsa_changes",
+      "url": "https://www.gsa.gov/policy-regulations/policy/acquisition-policy/construction-contract-administration",
+      "publisher": "GSA",
+      "access_date": "2026-10-09",
+      "document_identity": "Construction contract administration",
+      "relevant_section": "Change-order metrics",
+      "content_type": "text/html",
+      "status": "context_only",
+      "reason": "Search discovery provides administrative context; no executed modification paired with a draft proposal verified. No downloaded artifact.",
+      "reuse": {
+        "basis": "No redistribution permission established; no source content redistributed.",
+        "redistribute_original": false
+      },
+      "artifacts": []
+    }
+  ]
+}

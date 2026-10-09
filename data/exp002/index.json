@@ -1,0 +1,217 @@
+{
+  "dataset_version": "exp002-1.0.0-provisional",
+  "status": "frozen_for_future_model_evaluation_not_human_validated",
+  "case_count": 30,
+  "cases": [
+    {
+      "case_id": "E101",
+      "split": "held_out",
+      "category": "uncertainty",
+      "family": "flashing-downspout-termination-at-paved-court",
+      "source_group": "flashing"
+    },
+    {
+      "case_id": "E102",
+      "split": "development",
+      "category": "supersession",
+      "family": "painting-community-hall-finish-sample-sequence",
+      "source_group": "painting"
+    },
+    {
+      "case_id": "E103",
+      "split": "development",
+      "category": "quantity",
+      "family": "demolition-loading-apron-sawcut-limits",
+      "source_group": "demolition"
+    },
+    {
+      "case_id": "E104",
+      "split": "held_out",
+      "category": "uncertainty",
+      "family": "fence-gate-swing-near-a-utility-cabinet",
+      "source_group": "fence"
+    },
+    {
+      "case_id": "E105",
+      "split": "development",
+      "category": "clean",
+      "family": "demolition-corridor-partition-removal",
+      "source_group": "demolition"
+    },
+    {
+      "case_id": "E106",
+      "split": "development",
+      "category": "contradiction",
+      "family": "painting-occupied-records-room-application-method",
+      "source_group": "painting"
+    },
+    {
+      "case_id": "E107",
+      "split": "development",
+      "category": "omission",
+      "family": "demolition-workshop-annex-clearance",
+      "source_group": "demolition"
+    },
+    {
+      "case_id": "E108",
+      "split": "development",
+      "category": "supersession",
+      "family": "concrete-utility-walk-curing-selection",
+      "source_group": "concrete"
+    },
+    {
+      "case_id": "E109",
+      "split": "held_out",
+      "category": "quantity",
+      "family": "fence-boundary-run-post-spacing-schedule",
+      "source_group": "fence"
+    },
+    {
+      "case_id": "E110",
+      "split": "held_out",
+      "category": "supersession",
+      "family": "fence-depot-gate-lock-supply",
+      "source_group": "fence"
+    },
+    {
+      "case_id": "E111",
+      "split": "held_out",
+      "category": "supersession",
+      "family": "flashing-parapet-cap-finish-approval",
+      "source_group": "flashing"
+    },
+    {
+      "case_id": "E112",
+      "split": "development",
+      "category": "uncertainty",
+      "family": "concrete-island-curb-measurement-basis",
+      "source_group": "concrete"
+    },
+    {
+      "case_id": "E113",
+      "split": "development",
+      "category": "clean",
+      "family": "concrete-planter-edge-joint-detail",
+      "source_group": "concrete"
+    },
+    {
+      "case_id": "E114",
+      "split": "development",
+      "category": "quantity",
+      "family": "concrete-visitor-path-unit-conversion",
+      "source_group": "concrete"
+    },
+    {
+      "case_id": "E115",
+      "split": "development",
+      "category": "contradiction",
+      "family": "concrete-museum-service-walk-finish",
+      "source_group": "concrete"
+    },
+    {
+      "case_id": "E116",
+      "split": "development",
+      "category": "omission",
+      "family": "concrete-courtyard-path-protection",
+      "source_group": "concrete"
+    },
+    {
+      "case_id": "E117",
+      "split": "held_out",
+      "category": "quantity",
+      "family": "flashing-east-eave-gutter-schedule",
+      "source_group": "flashing"
+    },
+    {
+      "case_id": "E118",
+      "split": "development",
+      "category": "uncertainty",
+      "family": "demolition-covered-pump-plinth",
+      "source_group": "demolition"
+    },
+    {
+      "case_id": "E119",
+      "split": "held_out",
+      "category": "clean",
+      "family": "fence-nursery-boundary-bottom-detail",
+      "source_group": "fence"
+    },
+    {
+      "case_id": "E120",
+      "split": "held_out",
+      "category": "omission",
+      "family": "fence-vehicle-gate-hold-open-hardware",
+      "source_group": "fence"
+    },
+    {
+      "case_id": "E121",
+      "split": "held_out",
+      "category": "contradiction",
+      "family": "flashing-store-canopy-drainage-metal",
+      "source_group": "flashing"
+    },
+    {
+      "case_id": "E122",
+      "split": "development",
+      "category": "uncertainty",
+      "family": "painting-stair-lobby-color-schedule-conflict",
+      "source_group": "painting"
+    },
+    {
+      "case_id": "E123",
+      "split": "development",
+      "category": "clean",
+      "family": "painting-gallery-walls-beside-factory-finished-frames",
+      "source_group": "painting"
+    },
+    {
+      "case_id": "E124",
+      "split": "held_out",
+      "category": "clean",
+      "family": "flashing-loading-shelter-finish-repairs",
+      "source_group": "flashing"
+    },
+    {
+      "case_id": "E125",
+      "split": "held_out",
+      "category": "omission",
+      "family": "flashing-courtyard-outlet-accessories",
+      "source_group": "flashing"
+    },
+    {
+      "case_id": "E126",
+      "split": "development",
+      "category": "quantity",
+      "family": "painting-meeting-room-wall-takeoff",
+      "source_group": "painting"
+    },
+    {
+      "case_id": "E127",
+      "split": "development",
+      "category": "supersession",
+      "family": "demolition-meter-room-isolation-allocation",
+      "source_group": "demolition"
+    },
+    {
+      "case_id": "E128",
+      "split": "development",
+      "category": "contradiction",
+      "family": "demolition-archive-entrance-dismantling",
+      "source_group": "demolition"
+    },
+    {
+      "case_id": "E129",
+      "split": "held_out",
+      "category": "contradiction",
+      "family": "fence-service-yard-fabric-coating",
+      "source_group": "fence"
+    },
+    {
+      "case_id": "E130",
+      "split": "development",
+      "category": "omission",
+      "family": "painting-reception-door-hardware-handling",
+      "source_group": "painting"
+    }
+  ]
+}

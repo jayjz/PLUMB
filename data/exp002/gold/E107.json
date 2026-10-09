@@ -1,0 +1,41 @@
+{
+  "case_id": "E107",
+  "category": "omission",
+  "review_status": "provisional_ai_authored",
+  "independent_human_review": false,
+  "expected_status": "issues",
+  "issues": [
+    {
+      "issue_id": "E107-01",
+      "type": "omission",
+      "expected_action": "revise_proposal",
+      "identity": {
+        "authorized_evidence": [
+          "d3.p1"
+        ],
+        "proposal_evidence": [
+          "d4.p1",
+          "d4.p2"
+        ]
+      },
+      "rationale": "Loading into an onsite bin and broom cleaning do not state the explicitly agreed offsite haul and disposal. The entire two-paragraph proposal is the omission search boundary."
+    }
+  ],
+  "resolution": {
+    "type": "omission",
+    "expected_action": "revise_proposal",
+    "authorized_evidence": [
+      "d3.p1"
+    ],
+    "proposal_evidence": [
+      "d4.p1",
+      "d4.p2"
+    ],
+    "rationale": "Loading into an onsite bin and broom cleaning do not state the explicitly agreed offsite haul and disposal. The entire two-paragraph proposal is the omission search boundary."
+  },
+  "assumptions": [
+    "Owner role and authority are fictional and stipulated, not legally verified.",
+    "Measurements, material selections and amendments are synthetic; source supports terminology, not project events.",
+    "Qualified human review of plausibility, completeness and labels remains pending."
+  ]
+}

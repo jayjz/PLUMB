@@ -1,0 +1,84 @@
+{
+  "case_id": "E102",
+  "synthetic": true,
+  "title": "Community hall finish sample sequence",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "painting",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2009%2090%2000.pdf",
+      "document_identity": "UFGS 09 90 00 — Paints and Coatings; August 2026; downloaded edition references UMRL July 2026",
+      "section": "1.6",
+      "pdf_page": 17,
+      "note": "Submittal requirements are edited to reflect the project.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-01-09",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Price the hall walls with the satin finish we marked on the first color sheet."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-01-11",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Daylight makes the satin sample look glossier than it did in the office. The north wall is the sample location, not a separate painting phase."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-01-14",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Revision 1: test an eggshell finish in the same color. This permits a sample only, not the full application."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "follow_up",
+      "timestamp": "2026-01-16",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Revision 2: the eggshell sample is approved for all hall walls and supersedes satin. Keep the same color and wall extent. Ceiling work remains excluded."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "kind": "draft_proposal",
+      "timestamp": "2026-01-21",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Prepare and coat all hall walls in the approved eggshell finish and unchanged color. Ceiling excluded; north-wall sample is part of this work."
+        }
+      ]
+    }
+  ]
+}

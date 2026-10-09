@@ -1,0 +1,71 @@
+{
+  "case_id": "E122",
+  "synthetic": true,
+  "title": "Stair lobby color schedule conflict",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "painting",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2009%2090%2000.pdf",
+      "document_identity": "UFGS 09 90 00 — Paints and Coatings; August 2026; downloaded edition references UMRL July 2026",
+      "section": "1.7.1",
+      "pdf_page": 19,
+      "note": "Document discrepancies require resolution before affected work.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-03-30",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Repaint the stair lobby according to the approved finish schedule once the office sends the final set."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-04-01",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Two sheets were handed over, both marked final: schedule L uses warm white; schedule M uses pale gray. Neither has an approval date. The existing finish looks cream under the lamps."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-04-04",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Both sheets came from my office, but I cannot yet say which one was signed off. Please obtain confirmation before selecting the lobby color. Neither supersedes the other on the available record."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-04-06",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Stair lobby walls: color per final schedule, sheet L or M pending owner confirmation. Preparation and protection included."
+        }
+      ]
+    }
+  ]
+}

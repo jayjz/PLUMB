@@ -1,0 +1,84 @@
+{
+  "case_id": "E126",
+  "synthetic": true,
+  "title": "Meeting-room wall takeoff",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "painting",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2009%2090%2000.pdf",
+      "document_identity": "UFGS 09 90 00 — Paints and Coatings; August 2026; downloaded edition references UMRL July 2026",
+      "section": "1.2.1",
+      "pdf_page": 6,
+      "note": "Paint scope distinguishes interior and exterior surfaces.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-04-15",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Recoat the four meeting-room walls. The ceiling, doors and glazing are outside the measured painting area."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-04-17",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "All walls are 3 m high. Two are 6 m long, two are 4 m long. The door and glazing openings together occupy 8 m²; there are no other openings."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "measurement",
+      "timestamp": "2026-04-20",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Net wall area: 2 × (6 + 4) × 3 − 8 = 52 m². Agreed measurement excludes all openings and does not multiply area by number of coats."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "follow_up",
+      "timestamp": "2026-04-22",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "I approve the net measurement convention and this takeoff. Use 52 m² in the scope quantity."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "kind": "draft_proposal",
+      "timestamp": "2026-04-27",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Paint meeting-room walls, 60 m² net measured area, excluding door and glazing openings. Ceiling excluded; quantity does not include any waste factor."
+        }
+      ]
+    }
+  ]
+}

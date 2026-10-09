@@ -1,0 +1,75 @@
+{
+  "case_id": "E123",
+  "synthetic": true,
+  "title": "Gallery walls beside factory-finished frames",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "painting",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2009%2090%2000.pdf",
+      "document_identity": "UFGS 09 90 00 — Paints and Coatings; August 2026; downloaded edition references UMRL July 2026",
+      "section": "1.2.2",
+      "pdf_page": 7,
+      "note": "Factory-finished items are excluded unless indicated otherwise.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-04-03",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Paint the gallery walls only. The new powder-coated window frames are to stay as supplied."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-04-05",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The delivery docket describes the frames as paint-ready in a generic product family heading. These particular frames are factory finished; no field coating has been requested."
+        },
+        {
+          "id": "p2",
+          "text": "A volunteer would prefer all trim blue, but has no authority to change the order."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-04-08",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Walls only in the selected white. Protect the factory-finished frames and do not field-paint them. Include cleanup and removal of masking."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-04-10",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Prepare and paint gallery walls white; mask and protect factory-finished frames, leave their finish intact, remove masking and clean up."
+        }
+      ]
+    }
+  ]
+}

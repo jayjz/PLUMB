@@ -1,0 +1,39 @@
+{
+  "case_id": "E122",
+  "category": "uncertainty",
+  "review_status": "provisional_ai_authored",
+  "independent_human_review": false,
+  "expected_status": "issues",
+  "issues": [
+    {
+      "issue_id": "E122-01",
+      "type": "uncertainty",
+      "expected_action": "clarify",
+      "identity": {
+        "authorized_evidence": [
+          "d3.p1"
+        ],
+        "proposal_evidence": [
+          "d4.p1"
+        ]
+      },
+      "rationale": "No authorized winning schedule exists in the provided record. Existing appearance and sheet letters are not reliable precedence rules; a color clarification is required."
+    }
+  ],
+  "resolution": {
+    "type": "uncertainty",
+    "expected_action": "clarify",
+    "authorized_evidence": [
+      "d3.p1"
+    ],
+    "proposal_evidence": [
+      "d4.p1"
+    ],
+    "rationale": "No authorized winning schedule exists in the provided record. Existing appearance and sheet letters are not reliable precedence rules; a color clarification is required."
+  },
+  "assumptions": [
+    "Owner role and authority are fictional and stipulated, not legally verified.",
+    "Measurements, material selections and amendments are synthetic; source supports terminology, not project events.",
+    "Qualified human review of plausibility, completeness and labels remains pending."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "E116",
+  "category": "omission",
+  "review_status": "provisional_ai_authored",
+  "independent_human_review": false,
+  "expected_status": "issues",
+  "issues": [
+    {
+      "issue_id": "E116-01",
+      "type": "omission",
+      "expected_action": "revise_proposal",
+      "identity": {
+        "authorized_evidence": [
+          "d3.p1"
+        ],
+        "proposal_evidence": [
+          "d4.p1",
+          "d4.p2"
+        ]
+      },
+      "rationale": "Curing alone does not state the required barriers maintained through acceptance. Owner-provided signs are a legitimate exclusion."
+    }
+  ],
+  "resolution": {
+    "type": "omission",
+    "expected_action": "revise_proposal",
+    "authorized_evidence": [
+      "d3.p1"
+    ],
+    "proposal_evidence": [
+      "d4.p1",
+      "d4.p2"
+    ],
+    "rationale": "Curing alone does not state the required barriers maintained through acceptance. Owner-provided signs are a legitimate exclusion."
+  },
+  "assumptions": [
+    "Owner role and authority are fictional and stipulated, not legally verified.",
+    "Measurements, material selections and amendments are synthetic; source supports terminology, not project events.",
+    "Qualified human review of plausibility, completeness and labels remains pending."
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "case_id": "E109",
+  "synthetic": true,
+  "title": "Boundary run post-spacing schedule",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "fence",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2031%2013.pdf",
+      "document_identity": "UFGS 32 31 13 — Chain Link Fences and Gates; November 2021; downloaded edition references UMRL July 2026",
+      "section": "3.2.2.1",
+      "pdf_page": 18,
+      "note": "Line-post spacing and gate openings have different requirements.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-02-06",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Extend the straight boundary fence for 24 m with no gates. The end posts are counted separately from the intermediate line posts."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "measurement",
+      "timestamp": "2026-02-08",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Approved layout: end posts at 0 m and 24 m; line posts at 3, 6, 9, 12, 15, 18 and 21 m. Seven intermediate line posts plus two end posts; all eight bays are 3 m."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "site_observation",
+      "timestamp": "2026-02-11",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The line is straight and there are no corners or grade breaks. A previous sketch had a gate which was removed before this approved layout."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "follow_up",
+      "timestamp": "2026-02-13",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Price exactly the surveyed post layout. There is no gate in this order and no extra posts for an unused gate opening."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "kind": "draft_proposal",
+      "timestamp": "2026-02-18",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "24 m straight fence: eight intermediate line posts plus two end posts. Use the approved eight 3 m bays; no gate included."
+        }
+      ]
+    }
+  ]
+}

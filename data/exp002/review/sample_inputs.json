@@ -1,0 +1,499 @@
+{
+  "purpose": "Gold-free initial review packet; no audit performed",
+  "inputs": [
+    {
+      "dataset_version": "exp002-1.0.0-provisional",
+      "case_id": "E106",
+      "synthetic": true,
+      "title": "Occupied records room application method",
+      "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+      "source_context": [
+        {
+          "source_id": "painting",
+          "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2009%2090%2000.pdf",
+          "document_identity": "UFGS 09 90 00 — Paints and Coatings; August 2026; downloaded edition references UMRL July 2026",
+          "section": "3.8.1",
+          "pdf_page": 43,
+          "note": "Application methods depend on the project and coating requirements.",
+          "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+        }
+      ],
+      "documents": [
+        {
+          "id": "d1",
+          "kind": "customer_inquiry",
+          "timestamp": "2026-01-25",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "We need the records-room walls recoated during a weekend closure. The shelving stays, protected in place."
+            }
+          ]
+        },
+        {
+          "id": "d2",
+          "kind": "site_observation",
+          "timestamp": "2026-01-27",
+          "author": "Surveyor",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "The alcove is tight and the estimator mentioned spray application to save time. The owner asked for a separate discussion before choosing a method."
+            },
+            {
+              "id": "p2",
+              "text": "Room inventory: the permanent shelving holds sealed record cartons. Staff will move loose folders from the central table before the weekend; the painter is not responsible for classifying or packing records. One carton is stamped SPRAY on its printed shipping label because it previously carried cleaning supplies. That wording does not describe a coating method. The room photograph was taken with the alcove light off, which changes its apparent color but does not make the alcove a separate room or a ceiling surface."
+            },
+            {
+              "id": "p3",
+              "text": "Scheduling correspondence: facilities asked whether the room could reopen on Monday morning. The estimator replied that the working schedule would be confirmed after product and drying requirements were reviewed; no accelerated cure system was approved in that exchange. The supplier offered a weekend equipment hire package that includes a sprayer, but the owner never accepted the equipment offer as a change to the application method. The selected coating is the same throughout the walls; this does not settle how it is to be applied. The shelving protection instruction remains in force."
+            }
+          ]
+        },
+        {
+          "id": "d3",
+          "kind": "follow_up",
+          "timestamp": "2026-01-30",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Approve roller application to all records-room walls, including the alcove. Spraying is not approved. Mask and protect the retained shelving."
+            },
+            {
+              "id": "p2",
+              "text": "The ceiling is outside this order; its yellow tint in the photograph is from the light fittings."
+            }
+          ]
+        },
+        {
+          "id": "d4",
+          "kind": "draft_proposal",
+          "timestamp": "2026-02-01",
+          "author": "Estimator",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Prepare walls and protect shelving; ceiling excluded."
+            },
+            {
+              "id": "p2",
+              "text": "Roll the main walls and spray the alcove walls using the same selected coating."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_version": "exp002-1.0.0-provisional",
+      "case_id": "E119",
+      "synthetic": true,
+      "title": "Nursery boundary bottom detail",
+      "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+      "source_context": [
+        {
+          "source_id": "fence",
+          "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2031%2013.pdf",
+          "document_identity": "UFGS 32 31 13 — Chain Link Fences and Gates; November 2021; downloaded edition references UMRL July 2026",
+          "section": "3.2.2.2",
+          "pdf_page": 18,
+          "note": "Bottom tension wire selection is coordinated with bottom rails.",
+          "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+        }
+      ],
+      "documents": [
+        {
+          "id": "d1",
+          "kind": "customer_inquiry",
+          "timestamp": "2026-03-18",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Use bottom tension wire on the nursery boundary, with no bottom rail. The old gate is under a different maintenance order."
+            }
+          ]
+        },
+        {
+          "id": "d2",
+          "kind": "site_observation",
+          "timestamp": "2026-03-20",
+          "author": "Surveyor",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "The supplier catalogue shows a heavy bottom rail in its cover photograph. That photograph is generic and does not describe the selected assembly."
+            },
+            {
+              "id": "p2",
+              "text": "The gardener asked whether a future planting bed would need a gate; no gate order followed."
+            }
+          ]
+        },
+        {
+          "id": "d3",
+          "kind": "follow_up",
+          "timestamp": "2026-03-23",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Approved boundary assembly: bottom tension wire, no bottom rail, no gate work. Keep the stated top rail and existing measured length."
+            }
+          ]
+        },
+        {
+          "id": "d4",
+          "kind": "draft_proposal",
+          "timestamp": "2026-03-25",
+          "author": "Estimator",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Install the boundary fence at the agreed length with top rail and bottom tension wire. Bottom rail and gate work excluded."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_version": "exp002-1.0.0-provisional",
+      "case_id": "E112",
+      "synthetic": true,
+      "title": "Island curb measurement basis",
+      "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+      "source_context": [
+        {
+          "source_id": "concrete",
+          "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2016%2019.pdf",
+          "document_identity": "UFGS 32 16 19 — Concrete Sidewalks, Curbs and Gutters; May 2018; downloaded edition references UMRL July 2026",
+          "section": "1.1.1.2",
+          "pdf_page": 5,
+          "note": "Curb measurement follows the face at the gutter line.",
+          "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+        }
+      ],
+      "documents": [
+        {
+          "id": "d1",
+          "kind": "customer_inquiry",
+          "timestamp": "2026-02-18",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Price the curb around the planted island. We have a rough 26 m outline in an old maintenance notebook."
+            }
+          ]
+        },
+        {
+          "id": "d2",
+          "kind": "site_observation",
+          "timestamp": "2026-02-20",
+          "author": "Surveyor",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "The island is curved. The notebook does not say whether 26 m follows the curb face, back edge or centerline."
+            }
+          ]
+        },
+        {
+          "id": "d3",
+          "kind": "follow_up",
+          "timestamp": "2026-02-23",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Use length at the curb face along the gutter line for the proposal. I cannot confirm that the notebook follows that line; arrange a measurement before agreeing the final quantity."
+            }
+          ]
+        },
+        {
+          "id": "d4",
+          "kind": "draft_proposal",
+          "timestamp": "2026-02-25",
+          "author": "Estimator",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Curb, provisional 26 m from the notebook. Measurement basis and final length await confirmation; no final quantity has been approved."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_version": "exp002-1.0.0-provisional",
+      "case_id": "E120",
+      "synthetic": true,
+      "title": "Vehicle gate hold-open hardware",
+      "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+      "source_context": [
+        {
+          "source_id": "fence",
+          "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2031%2013.pdf",
+          "document_identity": "UFGS 32 31 13 — Chain Link Fences and Gates; November 2021; downloaded edition references UMRL July 2026",
+          "section": "2.3.6",
+          "pdf_page": 16,
+          "note": "Vehicular gate accessories include stops and holders.",
+          "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+        }
+      ],
+      "documents": [
+        {
+          "id": "d1",
+          "kind": "customer_inquiry",
+          "timestamp": "2026-03-22",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Include a double-leaf vehicle gate for the maintenance compound. We need it to stay open while the cart comes through."
+            }
+          ]
+        },
+        {
+          "id": "d2",
+          "kind": "site_observation",
+          "timestamp": "2026-03-24",
+          "author": "Surveyor",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "The opening is level. A temporary rope currently holds an old gate leaf back; it is not intended as permanent hardware."
+            },
+            {
+              "id": "p2",
+              "text": "Compound operations note: the maintenance cart normally enters twice during a shift. The supervisor mentioned a powered gate at another depot only as a comparison, then confirmed that this small compound will keep a manual arrangement. A gate motor appears on an old asset list because equipment from the other depot was stored here temporarily; it is not being installed under this package. The old rope is to leave with the redundant gate and is not a substitute for the selected hardware."
+            },
+            {
+              "id": "p3",
+              "text": "Opening survey note: the two leaves meet centrally, and the recorded level surface does not establish any wind loading, security rating or engineering approval. Those questions are outside the documentary comparison. The owner has selected stops and holders as scope items; the manufacturer and responsible designer still determine suitable hardware. The drawing margin contains a pencil reminder to ask about access cards. No access control or electrical work was subsequently ordered, and the proposal's manual description remains consistent with that limit."
+            }
+          ]
+        },
+        {
+          "id": "d3",
+          "kind": "follow_up",
+          "timestamp": "2026-03-27",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Include stops and holders for both vehicle-gate leaves, automatically engaging when open and manually released. Call out this accessory work separately from hinges and latches."
+            },
+            {
+              "id": "p2",
+              "text": "No powered operator is requested. Keep the manual gate arrangement."
+            }
+          ]
+        },
+        {
+          "id": "d4",
+          "kind": "draft_proposal",
+          "timestamp": "2026-03-29",
+          "author": "Estimator",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Supply and install manual double-leaf gate, posts, hinges and latch. Adjust leaves for free movement through the full opening."
+            },
+            {
+              "id": "p2",
+              "text": "No powered operator. Include foundations and cleanup. This is the complete included hardware and work schedule."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_version": "exp002-1.0.0-provisional",
+      "case_id": "E102",
+      "synthetic": true,
+      "title": "Community hall finish sample sequence",
+      "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+      "source_context": [
+        {
+          "source_id": "painting",
+          "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2009%2090%2000.pdf",
+          "document_identity": "UFGS 09 90 00 — Paints and Coatings; August 2026; downloaded edition references UMRL July 2026",
+          "section": "1.6",
+          "pdf_page": 17,
+          "note": "Submittal requirements are edited to reflect the project.",
+          "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+        }
+      ],
+      "documents": [
+        {
+          "id": "d1",
+          "kind": "customer_inquiry",
+          "timestamp": "2026-01-09",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Price the hall walls with the satin finish we marked on the first color sheet."
+            }
+          ]
+        },
+        {
+          "id": "d2",
+          "kind": "site_observation",
+          "timestamp": "2026-01-11",
+          "author": "Surveyor",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Daylight makes the satin sample look glossier than it did in the office. The north wall is the sample location, not a separate painting phase."
+            }
+          ]
+        },
+        {
+          "id": "d3",
+          "kind": "follow_up",
+          "timestamp": "2026-01-14",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Revision 1: test an eggshell finish in the same color. This permits a sample only, not the full application."
+            }
+          ]
+        },
+        {
+          "id": "d4",
+          "kind": "follow_up",
+          "timestamp": "2026-01-16",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Revision 2: the eggshell sample is approved for all hall walls and supersedes satin. Keep the same color and wall extent. Ceiling work remains excluded."
+            }
+          ]
+        },
+        {
+          "id": "d5",
+          "kind": "draft_proposal",
+          "timestamp": "2026-01-21",
+          "author": "Estimator",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Prepare and coat all hall walls in the approved eggshell finish and unchanged color. Ceiling excluded; north-wall sample is part of this work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_version": "exp002-1.0.0-provisional",
+      "case_id": "E109",
+      "synthetic": true,
+      "title": "Boundary run post-spacing schedule",
+      "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+      "source_context": [
+        {
+          "source_id": "fence",
+          "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2031%2013.pdf",
+          "document_identity": "UFGS 32 31 13 — Chain Link Fences and Gates; November 2021; downloaded edition references UMRL July 2026",
+          "section": "3.2.2.1",
+          "pdf_page": 18,
+          "note": "Line-post spacing and gate openings have different requirements.",
+          "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+        }
+      ],
+      "documents": [
+        {
+          "id": "d1",
+          "kind": "customer_inquiry",
+          "timestamp": "2026-02-06",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Extend the straight boundary fence for 24 m with no gates. The end posts are counted separately from the intermediate line posts."
+            }
+          ]
+        },
+        {
+          "id": "d2",
+          "kind": "measurement",
+          "timestamp": "2026-02-08",
+          "author": "Surveyor",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Approved layout: end posts at 0 m and 24 m; line posts at 3, 6, 9, 12, 15, 18 and 21 m. Seven intermediate line posts plus two end posts; all eight bays are 3 m."
+            }
+          ]
+        },
+        {
+          "id": "d3",
+          "kind": "site_observation",
+          "timestamp": "2026-02-11",
+          "author": "Surveyor",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "The line is straight and there are no corners or grade breaks. A previous sketch had a gate which was removed before this approved layout."
+            }
+          ]
+        },
+        {
+          "id": "d4",
+          "kind": "follow_up",
+          "timestamp": "2026-02-13",
+          "author": "Owner",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "Price exactly the surveyed post layout. There is no gate in this order and no extra posts for an unused gate opening."
+            }
+          ]
+        },
+        {
+          "id": "d5",
+          "kind": "draft_proposal",
+          "timestamp": "2026-02-18",
+          "author": "Estimator",
+          "synthetic": true,
+          "paragraphs": [
+            {
+              "id": "p1",
+              "text": "24 m straight fence: eight intermediate line posts plus two end posts. Use the approved eight 3 m bays; no gate included."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

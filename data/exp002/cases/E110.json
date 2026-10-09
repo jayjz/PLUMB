@@ -1,0 +1,84 @@
+{
+  "case_id": "E110",
+  "synthetic": true,
+  "title": "Depot gate lock supply",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "fence",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2031%2013.pdf",
+      "document_identity": "UFGS 32 31 13 — Chain Link Fences and Gates; November 2021; downloaded edition references UMRL July 2026",
+      "section": "2.3.5",
+      "pdf_page": 16,
+      "note": "Padlock supply depends on the selected project requirements.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-02-10",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Please supply padlocks with the two depot gates; we have not yet chosen a keying arrangement."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-02-12",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The security desk wants both gates in its existing key system. The surveyor counted two lock locations, one per gate."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-02-15",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "First update: price two contractor-supplied locks pending confirmation from security."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "follow_up",
+      "timestamp": "2026-02-17",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Final authorized update: security will supply the two padlocks. Remove lock supply from your price but retain compatible latch eyes and fitting the owner-supplied locks. This replaces the earlier supply request."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "kind": "draft_proposal",
+      "timestamp": "2026-02-22",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Provide compatible latch eyes and fit two owner-supplied padlocks. Padlock supply by security is excluded from contractor price."
+        }
+      ]
+    }
+  ]
+}

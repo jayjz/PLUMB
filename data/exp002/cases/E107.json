@@ -1,0 +1,79 @@
+{
+  "case_id": "E107",
+  "synthetic": true,
+  "title": "Workshop annex clearance",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "demolition",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2002%2041%2000.pdf",
+      "document_identity": "UFGS 02 41 00 — Demolition; August 2022; downloaded edition references UMRL July 2026",
+      "section": "3.5.4",
+      "pdf_page": 28,
+      "note": "Removal from government property addresses offsite waste disposal.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-01-29",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "We need the timber annex taken down. The price is to cover the complete clearance, including the waste leaving our property."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-01-31",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Access is through the south gate. The workbench has already been removed by staff; nothing is to be salvaged. No hazardous material determination is made in this record."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-02-03",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Agreed: dismantle the annex, load all resulting ordinary demolition debris, and haul it offsite for lawful disposal. List the dismantling and offsite disposal as distinct included tasks."
+        },
+        {
+          "id": "p2",
+          "text": "Use the south gate. Any hazardous-material discovery is a separate stop-and-clarify condition, not an assumed allowance."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-02-05",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Included work: dismantle the timber annex to slab level; load ordinary debris into the temporary onsite bin."
+        },
+        {
+          "id": "p2",
+          "text": "Protect the gate and broom-clean the work area. Hazardous materials are excluded pending assessment. This schedule is the complete list of included tasks."
+        }
+      ]
+    }
+  ]
+}

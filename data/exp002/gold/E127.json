@@ -1,0 +1,24 @@
+{
+  "case_id": "E127",
+  "category": "supersession",
+  "review_status": "provisional_ai_authored",
+  "independent_human_review": false,
+  "expected_status": "no_issue",
+  "issues": [],
+  "resolution": {
+    "type": "legitimate_supersession",
+    "expected_action": "retain",
+    "authorized_evidence": [
+      "d4.p1"
+    ],
+    "proposal_evidence": [
+      "d5.p1"
+    ],
+    "rationale": "The latest authorized revision changes responsibility explicitly. The original contractor disconnection statement is superseded, not an omission."
+  },
+  "assumptions": [
+    "Owner role and authority are fictional and stipulated, not legally verified.",
+    "Measurements, material selections and amendments are synthetic; source supports terminology, not project events.",
+    "Qualified human review of plausibility, completeness and labels remains pending."
+  ]
+}

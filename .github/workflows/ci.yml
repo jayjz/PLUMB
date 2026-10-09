@@ -1,14 +1,23 @@
-name: EXP-001 integrity
+name: PLUMB research integrity
 on:
   push:
   pull_request:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: ${{ matrix.python-version }}
       - run: python -m unittest discover -s tests -v
       - run: python scripts/validate_cases.py
+      - run: python scripts/validate_exp002.py
+      - name: Verify gold-free input exports
+        run: |
+          python scripts/export_exp002.py --split development > /tmp/plumb-development.json
+          python scripts/export_exp002.py --split held_out > /tmp/plumb-held-out.json
+      - run: git diff --exit-code

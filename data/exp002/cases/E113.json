@@ -1,0 +1,75 @@
+{
+  "case_id": "E113",
+  "synthetic": true,
+  "title": "Planter-edge joint detail",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "concrete",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2016%2019.pdf",
+      "document_identity": "UFGS 32 16 19 — Concrete Sidewalks, Curbs and Gutters; May 2018; downloaded edition references UMRL July 2026",
+      "section": "3.5.2",
+      "pdf_page": 14,
+      "note": "Expansion joints use filler held in place during finishing.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-02-22",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The new walk goes around two existing planters. Include the joint detail shown in the small works sketch."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-02-24",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "There is an expansion joint at each planter interface. A supplier brochure also shows decorative scoring, but the owner has not requested decorative bands."
+        },
+        {
+          "id": "p2",
+          "text": "The caretaker has spare garden edging; it is not proposed as concrete joint filler."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-02-27",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Approve expansion joints with 13 mm filler at the two planter interfaces, held in place during finishing. Ordinary transverse broom finish elsewhere. No decorative scoring bands."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-03-01",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Provide 13 mm expansion-joint filler at both planter interfaces and secure it during finishing; transverse broom finish elsewhere. Decorative bands excluded."
+        }
+      ]
+    }
+  ]
+}

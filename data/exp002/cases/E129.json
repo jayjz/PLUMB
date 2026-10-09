@@ -1,0 +1,88 @@
+{
+  "case_id": "E129",
+  "synthetic": true,
+  "title": "Service-yard fabric coating",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "fence",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2031%2013.pdf",
+      "document_identity": "UFGS 32 31 13 — Chain Link Fences and Gates; November 2021; downloaded edition references UMRL July 2026",
+      "section": "2.2.1",
+      "pdf_page": 9,
+      "note": "Fabric coating types are distinct project selections.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-04-27",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The service-yard fence needs the dark coated fabric shown on our selected sample. Posts and rails should match the approved schedule."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-04-29",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "A neighboring fence is plain galvanized. Its appearance is a comparison only. The selected schedule calls the fabric PVC-coated over zinc-coated steel."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-05-02",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Approve PVC-coated over zinc-coated steel fabric for the service yard, with matching scheduled posts and rails. Do not replace the fabric with plain galvanized mesh."
+        },
+        {
+          "id": "p2",
+          "text": "The opening remains one pedestrian gate; the delivery truck uses a different entrance."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "follow_up",
+      "timestamp": "2026-05-04",
+      "author": "Supplier",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Plain galvanized stock can arrive sooner. This quotation is an offer of a substitution and has not been accepted by the owner."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "kind": "draft_proposal",
+      "timestamp": "2026-05-09",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Fabric: plain galvanized steel mesh. Posts and rails: coated per approved schedule. One pedestrian gate; no change to opening."
+        }
+      ]
+    }
+  ]
+}

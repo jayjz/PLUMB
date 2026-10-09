@@ -1,0 +1,23 @@
+{
+  "status": "pending",
+  "independent_qualified_reviewers": 0,
+  "completed_case_reviews": 0,
+  "reason": "User confirmed no independent reviewer available on 2026-10-09. AI author self-check is not independent or blinded review.",
+  "selection": "One case per category, alternating development and held_out; ordered by SHA-256 of fixed audit seed plus opaque case ID.",
+  "sample_input_sha256": "19135667996511286c968460e71060791c877fa82e388eb074cdb3b339094162",
+  "case_ids": [
+    "E106",
+    "E119",
+    "E112",
+    "E120",
+    "E102",
+    "E109"
+  ],
+  "assumptions_pending": [
+    "Construction plausibility and source-note interpretation",
+    "Completeness of target issues and negative labels",
+    "Reasonable alternative interpretations and evidence anchors",
+    "Authority policy applicability to real projects",
+    "Measurement and project-specific material choices are fictional"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "case_id": "E103",
+  "synthetic": true,
+  "title": "Loading apron sawcut limits",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "demolition",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2002%2041%2000.pdf",
+      "document_identity": "UFGS 02 41 00 — Demolition; August 2022; downloaded edition references UMRL July 2026",
+      "section": "3.1.4",
+      "pdf_page": 17,
+      "note": "Paving removal limits and depths require project-specific selection.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-01-13",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Price removal of the marked apron only. The initial sketch has the old 8 m by 4 m rectangle; the final survey will govern."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-01-15",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The painted line was moved to keep a drainage channel. No removal is planned beyond the paint. The adjacent asphalt is merely stained."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "measurement",
+      "timestamp": "2026-01-18",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Final agreed takeoff: marked removal rectangle 7.5 m by 4 m = 30 m². Depth 100 mm. No bulking or waste factor applies to the measured demolition area."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "follow_up",
+      "timestamp": "2026-01-20",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "I approve the final survey takeoff as the proposal quantity. Leave the channel and adjacent asphalt in place."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "kind": "draft_proposal",
+      "timestamp": "2026-01-25",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Sawcut and remove 32 m² of 100 mm apron, keeping the channel and adjacent asphalt. Quantity carried from the original sketch."
+        }
+      ]
+    }
+  ]
+}

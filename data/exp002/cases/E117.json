@@ -1,0 +1,92 @@
+{
+  "case_id": "E117",
+  "synthetic": true,
+  "title": "East eave gutter schedule",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "flashing",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2007%2060%2000.pdf",
+      "document_identity": "UFGS 07 60 00 — Flashing and Sheet Metal; August 2023, Change 1 May 2025; downloaded edition references UMRL July 2026",
+      "section": "3.1.17",
+      "pdf_page": 25,
+      "note": "Gutter arrangements depend on project detailing.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-03-10",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Price the east eave in metres of installed gutter. Downspouts are separate numbered items."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "measurement",
+      "timestamp": "2026-03-12",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Measured east eave is 18 m overall, including its two 1 m returns. Straight middle length is 16 m. The overall 18 m, not 18 plus returns, is the agreed installed length."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "site_observation",
+      "timestamp": "2026-03-15",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "There are two downspouts. The west eave was repaired last year and is outside this work."
+        },
+        {
+          "id": "p2",
+          "text": "Takeoff background: the first pencil measurement was taken only between the two corners and recorded the middle length. The later tape was run around both returns and the signed survey labels that result 'overall including returns'. Neither record includes downspout drops. The estimator has both pages in the folder; their differing lengths are explained by the measurement boundary, not by a change in the building footprint. The customer has not ordered a spare installed gutter length as a stock item."
+        },
+        {
+          "id": "p3",
+          "text": "Other roof notes: the west gutter was photographed because it is visible from the same ladder position. A maintenance invoice for that work is attached to the owner's folder, but it is a completed prior job and not a new scope approval. The east gutter will be delivered in workable lengths with normal jointing; this takeoff records installed length, not the amount of raw metal purchased. A delivery quantity or cutting allowance cannot be substituted for the agreed installed measurement in the proposal's quantity column."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "follow_up",
+      "timestamp": "2026-03-17",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Use the overall measured gutter length with returns included. Downspouts remain two separate items; do not convert their drops into gutter length."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "kind": "draft_proposal",
+      "timestamp": "2026-03-22",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "East gutter: 20 m installed, calculated as 18 m plus two 1 m returns. Two downspouts listed separately; west eave excluded."
+        }
+      ]
+    }
+  ]
+}
