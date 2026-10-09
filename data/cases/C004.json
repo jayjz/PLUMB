@@ -1,0 +1,28 @@
+{
+  "case_id": "C004",
+  "synthetic": true,
+  "scenario": "Missing agreed debris removal",
+  "documents": [
+    {
+      "id": "visit",
+      "kind": "site_visit",
+      "timestamp": "2026-03-01",
+      "author": "Contractor",
+      "text": "Existing deck will be demolished. Homeowner asked us to remove and dispose of demolished material, and we agreed disposal would be included."
+    },
+    {
+      "id": "approval",
+      "kind": "customer_email",
+      "timestamp": "2026-03-02",
+      "author": "Homeowner",
+      "text": "Please include removal and disposal of all old deck debris as agreed."
+    },
+    {
+      "id": "proposal",
+      "kind": "draft_proposal",
+      "timestamp": "2026-03-03",
+      "author": "Estimator",
+      "text": "Scope: demolish existing deck, construct replacement deck and install railing. No disposal or debris haul-away item is listed."
+    }
+  ]
+}
