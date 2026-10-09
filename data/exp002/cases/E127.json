@@ -1,0 +1,88 @@
+{
+  "case_id": "E127",
+  "synthetic": true,
+  "title": "Meter-room isolation allocation",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "demolition",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2002%2041%2000.pdf",
+      "document_identity": "UFGS 02 41 00 — Demolition; August 2022; downloaded edition references UMRL July 2026",
+      "section": "1.3.4",
+      "pdf_page": 10,
+      "note": "Utility disconnection responsibility is a project-selected option.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-04-19",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Include contractor disconnection and capping before we remove the redundant meter-room partition."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-04-21",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The active supply also serves the adjacent store. The utility provider requires a scheduled isolation; the partition itself is nonstructural in this fictional scope."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-04-24",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Revision A: allow contractor disconnection after the utility isolates the supply. Keep partition removal in the package."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "follow_up",
+      "timestamp": "2026-04-26",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Revision B supersedes only the disconnection allocation: our utility provider will disconnect and cap before access. Contractor scope is partition removal after written release. The contractor no longer prices disconnection."
+        },
+        {
+          "id": "p2",
+          "text": "Keep the protection to the active store services. Do not infer permission to interrupt those services."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "kind": "draft_proposal",
+      "timestamp": "2026-05-01",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Remove the partition after written utility release; protect active store services. Utility provider performs disconnection and capping, excluded from this contractor package."
+        }
+      ]
+    }
+  ]
+}

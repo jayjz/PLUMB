@@ -1,0 +1,75 @@
+{
+  "case_id": "E125",
+  "synthetic": true,
+  "title": "Courtyard outlet accessories",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "flashing",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2007%2060%2000.pdf",
+      "document_identity": "UFGS 07 60 00 — Flashing and Sheet Metal; August 2023, Change 1 May 2025; downloaded edition references UMRL July 2026",
+      "section": "3.1.18",
+      "pdf_page": 26,
+      "note": "Downspout work includes outlets, elbows and offsets.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-04-11",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Replace the courtyard downspouts and the outlet accessories above them. Leaves collect at the outlets in autumn."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-04-13",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "There are three outlets, all reachable from the courtyard. The photographed leaf guard on the next building is not part of this quote."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-04-16",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Include a tightly fitting wire ball strainer at each of the three gutter outlets, in the same material as the gutters. List strainers as included; no continuous leaf guard is ordered."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-04-18",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Replace three downspouts complete with elbows, offsets and supports; reconnect at the three existing gutter outlets."
+        },
+        {
+          "id": "p2",
+          "text": "Continuous leaf guards excluded. Clean the courtyard after completion. This schedule states all included outlet accessories and downspout work."
+        }
+      ]
+    }
+  ]
+}

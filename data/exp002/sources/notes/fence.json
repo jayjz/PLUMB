@@ -1,0 +1,36 @@
+{
+  "source_id": "fence",
+  "authorship": "AI-authored factual paraphrases checked against locally downloaded PDF; not human-verified. Bracketed alternatives are not universal requirements.",
+  "sections": [
+    {
+      "section": "2.2.1",
+      "pdf_page": 9,
+      "note": "Fabric coating types are distinct project selections."
+    },
+    {
+      "section": "2.3.6",
+      "pdf_page": 16,
+      "note": "Vehicular gate accessories include stops and holders."
+    },
+    {
+      "section": "2.3.5",
+      "pdf_page": 16,
+      "note": "Padlock supply depends on the selected project requirements."
+    },
+    {
+      "section": "3.2.2.1",
+      "pdf_page": 18,
+      "note": "Line-post spacing and gate openings have different requirements."
+    },
+    {
+      "section": "3.2.12",
+      "pdf_page": 21,
+      "note": "Gate installation must accommodate unobstructed opening."
+    },
+    {
+      "section": "3.2.2.2",
+      "pdf_page": 18,
+      "note": "Bottom tension wire selection is coordinated with bottom rails."
+    }
+  ]
+}

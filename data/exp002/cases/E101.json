@@ -1,0 +1,71 @@
+{
+  "case_id": "E101",
+  "synthetic": true,
+  "title": "Downspout termination at paved court",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "flashing",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2007%2060%2000.pdf",
+      "document_identity": "UFGS 07 60 00 — Flashing and Sheet Metal; August 2023, Change 1 May 2025; downloaded edition references UMRL July 2026",
+      "section": "3.1.18.1",
+      "pdf_page": 26,
+      "note": "Downspout termination distinguishes drainage-line connections.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-01-05",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Renew the single downspout at the paved court. I would like the water kept away from the doorway, but have not chosen the final outlet arrangement."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-01-07",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "A capped pipe is visible beside the downspout. Its destination and usability were not established. The old downspout discharged onto paving."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-01-10",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Neither connection into the capped pipe nor a surface discharge has been approved. Please confirm the pipe and agree the termination before finalizing that part of the scope."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-01-12",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Renew downspout, with termination allowance pending confirmation of drainage connection or surface discharge. No connection method is fixed in this draft."
+        }
+      ]
+    }
+  ]
+}

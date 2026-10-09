@@ -1,0 +1,87 @@
+{
+  "case_id": "E120",
+  "synthetic": true,
+  "title": "Vehicle gate hold-open hardware",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "fence",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2031%2013.pdf",
+      "document_identity": "UFGS 32 31 13 — Chain Link Fences and Gates; November 2021; downloaded edition references UMRL July 2026",
+      "section": "2.3.6",
+      "pdf_page": 16,
+      "note": "Vehicular gate accessories include stops and holders.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-03-22",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Include a double-leaf vehicle gate for the maintenance compound. We need it to stay open while the cart comes through."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-03-24",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The opening is level. A temporary rope currently holds an old gate leaf back; it is not intended as permanent hardware."
+        },
+        {
+          "id": "p2",
+          "text": "Compound operations note: the maintenance cart normally enters twice during a shift. The supervisor mentioned a powered gate at another depot only as a comparison, then confirmed that this small compound will keep a manual arrangement. A gate motor appears on an old asset list because equipment from the other depot was stored here temporarily; it is not being installed under this package. The old rope is to leave with the redundant gate and is not a substitute for the selected hardware."
+        },
+        {
+          "id": "p3",
+          "text": "Opening survey note: the two leaves meet centrally, and the recorded level surface does not establish any wind loading, security rating or engineering approval. Those questions are outside the documentary comparison. The owner has selected stops and holders as scope items; the manufacturer and responsible designer still determine suitable hardware. The drawing margin contains a pencil reminder to ask about access cards. No access control or electrical work was subsequently ordered, and the proposal's manual description remains consistent with that limit."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-03-27",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Include stops and holders for both vehicle-gate leaves, automatically engaging when open and manually released. Call out this accessory work separately from hinges and latches."
+        },
+        {
+          "id": "p2",
+          "text": "No powered operator is requested. Keep the manual gate arrangement."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-03-29",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Supply and install manual double-leaf gate, posts, hinges and latch. Adjust leaves for free movement through the full opening."
+        },
+        {
+          "id": "p2",
+          "text": "No powered operator. Include foundations and cleanup. This is the complete included hardware and work schedule."
+        }
+      ]
+    }
+  ]
+}

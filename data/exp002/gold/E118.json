@@ -1,0 +1,39 @@
+{
+  "case_id": "E118",
+  "category": "uncertainty",
+  "review_status": "provisional_ai_authored",
+  "independent_human_review": false,
+  "expected_status": "issues",
+  "issues": [
+    {
+      "issue_id": "E118-01",
+      "type": "uncertainty",
+      "expected_action": "clarify",
+      "identity": {
+        "authorized_evidence": [
+          "d2.p1"
+        ],
+        "proposal_evidence": [
+          "d4.p1"
+        ]
+      },
+      "rationale": "The draft appropriately flags unknowns but still requires a targeted clarification of depth and reinstatement. Do not invent a depth or call an acknowledged unknown a contradiction."
+    }
+  ],
+  "resolution": {
+    "type": "uncertainty",
+    "expected_action": "clarify",
+    "authorized_evidence": [
+      "d2.p1"
+    ],
+    "proposal_evidence": [
+      "d4.p1"
+    ],
+    "rationale": "The draft appropriately flags unknowns but still requires a targeted clarification of depth and reinstatement. Do not invent a depth or call an acknowledged unknown a contradiction."
+  },
+  "assumptions": [
+    "Owner role and authority are fictional and stipulated, not legally verified.",
+    "Measurements, material selections and amendments are synthetic; source supports terminology, not project events.",
+    "Qualified human review of plausibility, completeness and labels remains pending."
+  ]
+}

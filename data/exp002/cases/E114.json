@@ -1,0 +1,84 @@
+{
+  "case_id": "E114",
+  "synthetic": true,
+  "title": "Visitor path unit conversion",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "concrete",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2016%2019.pdf",
+      "document_identity": "UFGS 32 16 19 — Concrete Sidewalks, Curbs and Gutters; May 2018; downloaded edition references UMRL July 2026",
+      "section": "1.1.1.1",
+      "pdf_page": 5,
+      "note": "Sidewalk measurement uses area for each specified depth.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-02-26",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Quote the visitor path by square yard for the specified thickness, not as a lump sum."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "measurement",
+      "timestamp": "2026-02-28",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Survey strip is 90 ft long and 4 ft wide: 360 ft² = 40 yd², at the agreed uniform 4-inch thickness. This is finished plan area; no extra area for waste."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "site_observation",
+      "timestamp": "2026-03-03",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "One corner is next to landscaping. The landscaper will work outside the measured strip; no path widening was requested."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "follow_up",
+      "timestamp": "2026-03-05",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Use the survey area and the square-yard bid unit. The four-inch thickness remains unchanged."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "kind": "draft_proposal",
+      "timestamp": "2026-03-10",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Visitor path, 4-inch thickness: quantity 360 yd². Includes preparation, finishing, joints and curing within the surveyed strip."
+        }
+      ]
+    }
+  ]
+}

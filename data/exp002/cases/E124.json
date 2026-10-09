@@ -1,0 +1,75 @@
+{
+  "case_id": "E124",
+  "synthetic": true,
+  "title": "Loading-shelter finish repairs",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "flashing",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2007%2060%2000.pdf",
+      "document_identity": "UFGS 07 60 00 — Flashing and Sheet Metal; August 2023, Change 1 May 2025; downloaded edition references UMRL July 2026",
+      "section": "3.4",
+      "pdf_page": 30,
+      "note": "Repairable finish damage and irreparable items are treated differently.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-04-07",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Renew the shelter fascia. We will accept approved touch-up of minor finish damage but not pieces that cannot be restored."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-04-09",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "One sample has a light handling scratch and another has a deep dent. The sample assessment does not commit the owner to accepting every scratched item."
+        },
+        {
+          "id": "p2",
+          "text": "A delivery note requests fast unloading, which has no bearing on acceptance criteria."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-04-12",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Allow manufacturer-instructed repair of minor finish defects only with owner approval. Replace irreparable pieces. These conditions apply to all supplied fascia lengths."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-04-14",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Renew fascia; repair minor finish defects only under manufacturer instructions and owner approval, and replace pieces that cannot be restored."
+        }
+      ]
+    }
+  ]
+}

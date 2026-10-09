@@ -21,3 +21,6 @@ Provide all five case IDs exactly once; scoring rejects duplicates, unknown IDs,
 
 ## Definition of contradiction
 A material incompatibility between proposal content and the latest *authorized* record, not merely disagreement between two historical revisions. An omission is a requirement in the authorized record absent from a proposal expected to cover it. Clean and superseded cases prevent rewarding an always-flag strategy.
+## EXP-002 uses a separate contract
+
+The preceding schema and type-only matcher are retained for historical EXP-001 runs only. EXP-002 uses paragraph pointers with exact quotes, strict allowlisted fields, input hashes, explicit abstention/clarification and issue-identity localization; see [ADJUDICATION.md](ADJUDICATION.md). Never use `scripts/score.py` to grade EXP-002.

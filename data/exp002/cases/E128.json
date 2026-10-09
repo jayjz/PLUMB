@@ -1,0 +1,100 @@
+{
+  "case_id": "E128",
+  "synthetic": true,
+  "title": "Archive entrance dismantling",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "demolition",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2002%2041%2000.pdf",
+      "document_identity": "UFGS 02 41 00 — Demolition; August 2022; downloaded edition references UMRL July 2026",
+      "section": "3.3.3",
+      "pdf_page": 25,
+      "note": "Salvage scope requires identification and disposition of retained items.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-04-23",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Please price dismantling the archive entrance. We may reuse the oak doors; the hinges can be scrapped. The display cases are staying."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-04-25",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "There are two oak leaves and one steel service door. The curator has put blue tape on the oak leaves, but tape is an inventory mark, not an instruction to discard them."
+        },
+        {
+          "id": "p2",
+          "text": "The loading bay is shared with the library deliveries; the porter suggested afternoon collection."
+        },
+        {
+          "id": "p3",
+          "text": "Archive inventory note: the curator counted twelve loose exhibit labels and a box of brass screws on a trolley. Those objects belong to the exhibition team and will be moved by them before access; they are not demolition waste. A photograph includes a third door reflected in the display glass, so the image should not be used to increase the door count. The three physical leaves described in the visit remain the full entrance-door scope. The archive title 'Oak Room' refers to the collection, not the steel service door material."
+        },
+        {
+          "id": "p4",
+          "text": "Access note: the library's recurring delivery calendar still shows a morning slot. The porter has confirmed that it is only a standard calendar entry and that the afternoon appointment in the owner's email governs this visit. A volunteer asked the driver to take an unrelated broken chair, but the estimator told the volunteer that private furniture collections were outside this order. No request to add that chair reached the owner. A previous removal invoice uses the shorthand 'all joinery'; it is not part of the approved entrance package."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-04-28",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The steel service door can go with general debris. Retain both oak leaves intact, label them and deliver them to our store. This is the approved salvage scope."
+        },
+        {
+          "id": "p2",
+          "text": "The afternoon slot works. Please include the display-case protection in the price."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "follow_up",
+      "timestamp": "2026-04-30",
+      "author": "Supplier",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Our recycler can take all doors in one load. This is a logistics suggestion only; the owner has not agreed to it."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "kind": "draft_proposal",
+      "timestamp": "2026-05-05",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Remove entrance doors and transfer all three leaves to the recycler. Salvage hinges as scrap; protect the display cases and use afternoon collection."
+        }
+      ]
+    }
+  ]
+}

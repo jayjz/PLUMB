@@ -1,0 +1,75 @@
+{
+  "case_id": "E118",
+  "synthetic": true,
+  "title": "Covered pump plinth",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "demolition",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2002%2041%2000.pdf",
+      "document_identity": "UFGS 02 41 00 — Demolition; August 2022; downloaded edition references UMRL July 2026",
+      "section": "1.11",
+      "pdf_page": 15,
+      "note": "Existing conditions are documented before removal operations.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-03-14",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Please include removal of the redundant pump plinth. We need a usable floor afterward, but I do not know what is beneath the cover."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-03-16",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Cover could not be opened during the visit. The visible rim could be either a shallow housekeeping pad or the top of a deeper foundation. Removal depth and reinstatement limit remain unknown."
+        },
+        {
+          "id": "p2",
+          "text": "The caretaker remembers a drain nearby; this is recollection, not a verified service location."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-03-19",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "I can arrange access next week. No depth has been approved; keep this question open until the inspection. The pump was removed under another order."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-03-21",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Remove the redundant plinth and make good the floor; depth and reinstatement extent to be confirmed before final pricing."
+        }
+      ]
+    }
+  ]
+}

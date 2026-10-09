@@ -1,0 +1,75 @@
+{
+  "case_id": "E105",
+  "synthetic": true,
+  "title": "Corridor partition removal",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "demolition",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2002%2041%2000.pdf",
+      "document_identity": "UFGS 02 41 00 — Demolition; August 2022; downloaded edition references UMRL July 2026",
+      "section": "1.3.1",
+      "pdf_page": 9,
+      "note": "Protection extends to existing construction remaining in place.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-01-21",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Remove the lightweight screen at the corridor end. Retain the glazed office wall beside it; the noticeboard is ours to take away."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-01-23",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The screen has two panels. A different old sketch shows the office wall removed, but the owner identifies that sketch as an abandoned study."
+        },
+        {
+          "id": "p2",
+          "text": "A poster says “take everything down Friday”; it refers to a staff exhibition, not the building work."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-01-26",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Approved scope: remove the two screen panels, protect the adjacent glazed wall, and dispose of screen debris offsite. Staff will remove the noticeboard before access."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-01-28",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Remove two screen panels; protect retained glazed wall; load and dispose of screen debris offsite. Noticeboard removal by staff is excluded."
+        }
+      ]
+    }
+  ]
+}

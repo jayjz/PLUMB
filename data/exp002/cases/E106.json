@@ -1,0 +1,87 @@
+{
+  "case_id": "E106",
+  "synthetic": true,
+  "title": "Occupied records room application method",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "painting",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2009%2090%2000.pdf",
+      "document_identity": "UFGS 09 90 00 — Paints and Coatings; August 2026; downloaded edition references UMRL July 2026",
+      "section": "3.8.1",
+      "pdf_page": 43,
+      "note": "Application methods depend on the project and coating requirements.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-01-25",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "We need the records-room walls recoated during a weekend closure. The shelving stays, protected in place."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-01-27",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "The alcove is tight and the estimator mentioned spray application to save time. The owner asked for a separate discussion before choosing a method."
+        },
+        {
+          "id": "p2",
+          "text": "Room inventory: the permanent shelving holds sealed record cartons. Staff will move loose folders from the central table before the weekend; the painter is not responsible for classifying or packing records. One carton is stamped SPRAY on its printed shipping label because it previously carried cleaning supplies. That wording does not describe a coating method. The room photograph was taken with the alcove light off, which changes its apparent color but does not make the alcove a separate room or a ceiling surface."
+        },
+        {
+          "id": "p3",
+          "text": "Scheduling correspondence: facilities asked whether the room could reopen on Monday morning. The estimator replied that the working schedule would be confirmed after product and drying requirements were reviewed; no accelerated cure system was approved in that exchange. The supplier offered a weekend equipment hire package that includes a sprayer, but the owner never accepted the equipment offer as a change to the application method. The selected coating is the same throughout the walls; this does not settle how it is to be applied. The shelving protection instruction remains in force."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-01-30",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Approve roller application to all records-room walls, including the alcove. Spraying is not approved. Mask and protect the retained shelving."
+        },
+        {
+          "id": "p2",
+          "text": "The ceiling is outside this order; its yellow tint in the photograph is from the light fittings."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-02-01",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Prepare walls and protect shelving; ceiling excluded."
+        },
+        {
+          "id": "p2",
+          "text": "Roll the main walls and spray the alcove walls using the same selected coating."
+        }
+      ]
+    }
+  ]
+}

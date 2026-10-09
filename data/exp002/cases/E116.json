@@ -1,0 +1,79 @@
+{
+  "case_id": "E116",
+  "synthetic": true,
+  "title": "Courtyard path protection",
+  "authority_policy": "All project records and measurements are fictional. Owner follow-ups can authorize scope changes; supplier and surveyor statements alone cannot. An owner-approved survey defines the quantity when explicitly adopted. Later dates alone do not establish supersession. Draft proposals are complete only to the extent their text says so. Evaluate documentary consistency, not design safety or code compliance.",
+  "source_context": [
+    {
+      "source_id": "concrete",
+      "url": "https://www.wbdg.org/FFC/DOD/UFGS/UFGS%2032%2016%2019.pdf",
+      "document_identity": "UFGS 32 16 19 — Concrete Sidewalks, Curbs and Gutters; May 2018; downloaded edition references UMRL July 2026",
+      "section": "3.7.3",
+      "pdf_page": 17,
+      "note": "Completed concrete requires protection until acceptance.",
+      "use": "Factual paraphrase of a guide specification, not a project requirement unless adopted in synthetic records."
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "kind": "customer_inquiry",
+      "timestamp": "2026-03-06",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Replace the courtyard path while the office remains occupied. Pedestrians can use the east entrance during the works."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "site_observation",
+      "timestamp": "2026-03-08",
+      "author": "Surveyor",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Deliveries cross the new path. Two temporary barriers can fit outside the pour limits without blocking the east entrance."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "kind": "follow_up",
+      "timestamp": "2026-03-11",
+      "author": "Owner",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Include temporary barriers and maintain them around completed concrete until owner acceptance. This protection must be a separately stated task in the proposal."
+        },
+        {
+          "id": "p2",
+          "text": "The building manager will post the east-entrance signs; signs are not in your package."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "kind": "draft_proposal",
+      "timestamp": "2026-03-13",
+      "author": "Estimator",
+      "synthetic": true,
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "Prepare subgrade, form, place and broom-finish the new path. Include joints, curing and final cleanup."
+        },
+        {
+          "id": "p2",
+          "text": "Work within the agreed pour limits. Entrance signs by building manager. These are all included tasks."
+        }
+      ]
+    }
+  ]
+}
